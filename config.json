@@ -1,0 +1,21 @@
+{
+  "server": {
+    "port": 8080
+  },
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "user": "postgres",
+    "password": "password",
+    "databaseName": "postgres"
+  },
+  "youTube": {
+    "region": "US",
+    "totalNumbersOfVideosToDownload": 1000
+  },
+  "processing": {
+    "numberOfWorkers": 4,
+    "ffmpegBinaryPath": "./ffmpeg",
+    "framesPerSecond": "1"
+  }
+}
